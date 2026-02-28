@@ -33,6 +33,7 @@
                     <abbr title="Phone">Phone:</abbr> +63 976 088 8028<br>
                     <a href="mailto:zedricpapa@gmail.com">zedricpapa@gmail.com</a><br>
                     <a href="files/Papa_Resume.pdf">Download Resume</a>
+                    <a href="index.html">Version 1</a><a href="try.html">TRY</a>
                 </address>
             </div>
         </div>
@@ -171,5 +172,16 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+document.addEventListener('keydown', function(e) {
+  if (
+    e.key === 'F12' ||
+    (e.ctrlKey && e.shiftKey && ['I','J','C'].includes(e.key)) ||
+    (e.ctrlKey && e.key === 'U')
+  ) {
+    e.preventDefault();
+  }
+});
+</script>
 </body>
 </html>
